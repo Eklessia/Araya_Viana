@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IMCHiLE_Prueba_Araya_Viana.iml" filepath="$PROJECT_DIR$/.idea/modules/IMCHiLE_Prueba_Araya_Viana.iml" group="IMCHiLE_Prueba_Araya_Viana" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="IMCHiLE_Prueba_Araya_Viana/app" />
+    </modules>
+  </component>
+</project>
