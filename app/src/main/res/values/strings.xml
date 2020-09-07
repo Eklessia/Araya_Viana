@@ -1,4 +1,39 @@
 <resources>
     <string name="app_name">IMCHiLE_Prueba_Araya_Viana</string>
     <string name="texto_splash">Texto_Splash</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="app_name">Calculadora_IMC</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bmi_calculator">Calculador IMC</string>
+    <string name="add_bmi">Add IMC</string>
+    <string name="height">Altura</string>
+    <string name="cm">cm</string>
+    <string name="_0">0</string>
+    <string name="weight">Peso</string>
+    <string name="invalid_value">Valor Invalido</string>
+    <string name="calculate_your_bmi">Calcula Tu Indice</string>
+
+
+    <string name="height_is_empty">Ingresa Altura Correcta</string>
+    <string name="weight_is_empty">Ingresa Peso Correcto</string>
+    <string name="your_result">Tu Resultado</string>
+    <string name="normal_bmi_range">Rando Normal de IMC</string>
+    <string name="you_have_a_normal_body_weight_ngood_job">Tu peso es Normal\nBuen Trabajo!</string>
+    <string name="re_calculate_your_bmi">Calcular Nuevo IMC</string>
+
+    <string name="calculated_bmi">%.1f</string>
+    <string name="Peso  en Kilos">%1$d kg</string>
+    <string name="_18_5_25">18.5 – 25</string>
+    <string name="kg_m2">kg/m2</string>
+    <string name="guardar_imc">Save BMI</string>
+
+    <string name="delete_bmi_are_you_sure">Delete BMI\nAre you sure?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="kg">kg</string>
+
 </resources>
