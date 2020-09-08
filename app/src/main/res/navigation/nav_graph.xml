@@ -1,49 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment2">
 
-    <!-- MainFragment -->
-
-
-    <!-- ViewTransactionFragment -->
-
-
-    <!-- ChooseRecipientFragment -->
-    <fragment android:id="@+id/chooseRecipientFragment"
-              android:name="example.ChooseRecipientFragment"
-              android:label="fragment_choose_recipient"
-              tools:layout="@layout/fragment_choose_recipient">
-
-        <action android:id="@+id/action_chooseRecipientFragment_to_specifyAmountFragment"
-                app:destination="@id/specifyAmountFragment"
-                app:popEnterAnim="@anim/slide_in_left"
-                app:popExitAnim="@anim/slide_out_right"
-                app:enterAnim="@anim/slide_in_right"
-                app:exitAnim="@anim/slide_out_left"
-        />
+    <!-- MainFragment SPLASH VA A LOGIN-->
+    <fragment
+        android:id="@+id/splashFragment2"
+        android:name="com.imchile_prueba_araya_viana.imccalculator.splash.SplashFragment"
+        android:label="SplashFragment">
+        <action
+            android:id="@+id/action_splashFragment2_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
 
-
-
-    <!-- ViewBalanceFragment -->
-
-
-    <!-- SpecifyAmountFragment -->
-    <fragment android:id="@+id/specifyAmountFragment"
-              android:name="com.codingwithmitch.navigationcomponentsexample.SpecifyAmountFragment"
-              android:label="fragment_specify_amount"
-              tools:layout="@layout/fragment_specify_amount">
-
-        <argument android:name="recipient"
-                  android:defaultValue="None"/>
+    <!-- MainFragment LOGIN VA A REGISTRAR-->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.desafiolatam.imchile_prueba_araya_viana.presentation.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_registrarUsuarioFragment"
+            app:destination="@id/registrarUsuarioFragment" />
 
     </fragment>
 
+    <!-- MainFragment REGISTRAR VA A NewImcFragment-->
+    <fragment
+        android:id="@+id/registrarUsuarioFragment"
+        android:name="com.desafiolatam.imchile_prueba_araya_viana.presentation.RegistroUsuarioFragment"
+        android:label="RegistroUsuarioFragment"
+        tools:layout="@layout/fragment_registro_usuario">
+        <action
+            android:id="@+id/action_registrarUsuarioFragment_to_addNewImcFragment"
+            app:destination="@id/addNewImcFragment" />
+    </fragment>
 
-
-    <!-- ConfirmationFragment -->
+    <!-- MainFragment NewImcFragment va A Add Mew IMC-->
+    <fragment
+        android:id="@+id/imcsFragment"
+        android:name="com.imchile_prueba_araya_viana.imccalculator.imcs.ImcsFragment"
+        android:label="ImcsFragment" />
+    <fragment
+        android:id="@+id/addNewImcFragment"
+        android:name="com.imchile_prueba_araya_viana.imccalculator.addnewimc.AddNewImcFragment"
+        android:label="AddNewImcFragment" />
 
 
 </navigation>

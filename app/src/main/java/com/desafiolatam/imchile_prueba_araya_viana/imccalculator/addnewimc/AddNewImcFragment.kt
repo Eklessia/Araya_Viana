@@ -5,14 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.viewModels
 import com.desafiolatam.imchile_prueba_araya_viana.databinding.AddNewImcFragmentBinding
-import com.imchile_prueba_araya_viana.imccalculator.databinding.AddNewBmiFragmentBinding
 
 class AddNewImcFragment : Fragment()
 {
     private lateinit var binding: AddNewImcFragmentBinding
-    //private val viewModel by viewModels<AddNewImcViewModel>()
+    //private val viewModel by viewModels<AddNewImcViewModel>()  despues   import androidx.fragment.app.viewModels
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

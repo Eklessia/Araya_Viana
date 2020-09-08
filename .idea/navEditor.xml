@@ -8,30 +8,75 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="chooseRecipientFragment">
+                  <entry key="addNewImcFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="256" />
-                            <option name="y" value="368" />
+                            <option name="x" value="-622" />
+                            <option name="y" value="-716" />
                           </Point>
                         </option>
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="specifyAmountFragment">
+                  <entry key="imcsFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="500" />
-                            <option name="y" value="368" />
+                            <option name="x" value="-1196" />
+                            <option name="y" value="-887" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="loginFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1021" />
+                            <option name="y" value="-705" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_specifyAmountFragment_to_confirmationFragment">
+                            <entry key="action_loginFragment_to_registrarUsuarioFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="registrarUsuarioFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-845" />
+                            <option name="y" value="-699" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="splashFragment2">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1177" />
+                            <option name="y" value="-797" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_splashFragment2_to_loginFragment">
                               <value>
                                 <LayoutPositions />
                               </value>

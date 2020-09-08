@@ -5,11 +5,11 @@
     <color name="colorAccent">#03DAC5</color>
 
     <color name="light_grey">#8A92AD</color>
-    <c<!--Colores IMC-->
-    <color name="green">#22E67B</color>
-    <color name="orange">#F88909<olor name="white">#ffffff</color>
 
-    /color>
+    <!--Colores IMC-->
+
+    <color name="green">#22E67B</color>
+    <color name="orange">#F88909</color>
+    <color name="white">#ffffff</color>
     <color name="red">#FD0225</color>
-    <color name="white">#3E3E3E</color>
 </resources>

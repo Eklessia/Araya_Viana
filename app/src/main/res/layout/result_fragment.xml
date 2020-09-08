@@ -3,26 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data>
-
-    </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorPrimaryDark"
+        android:background="#FFFFFF"
         tools:context=".result.ResultFragment">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/mcv_result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/add_bmi_card_margin"
-            android:layout_marginTop="@dimen/add_bmi_card_margin"
-            android:elevation="@dimen/add_bmi_card_elevation"
+            android:layout_marginTop="150dp"
             app:cardBackgroundColor="@color/colorPrimary"
-            app:cardCornerRadius="@dimen/add_bmi_card_elevation"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="32dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -53,11 +48,11 @@
                     tools:text="22.1" />
 
                 <TextView
-                    android:id="@+id/tv_bmiRange_title"
+                    android:id="@+id/tv_imcRange_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/add_bmi_card_margin"
-                    android:text="@string/normal_bmi_range"
+                    android:text="@string/rango_normal_imc"
                     android:textColor="@color/light_grey"
                     android:textSize="@dimen/add_bmi_card_unit_textsize"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -71,10 +66,10 @@
                     android:orientation="horizontal"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_bmiRange_title">
+                    app:layout_constraintTop_toBottomOf="@+id/tv_imcRange_title">
 
                     <TextView
-                        android:id="@+id/tv_bmiRange_value"
+                        android:id="@+id/tv_imcRange_value"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/_18_5_25"
@@ -82,7 +77,7 @@
                         android:textSize="@dimen/add_bmi_card_unit_textsize" />
 
                     <TextView
-                        android:id="@+id/tv_bmiRange_unit"
+                        android:id="@+id/tv_imcRange_unit"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/add_bmi_card_unit_margin"
@@ -94,38 +89,25 @@
                         app:layout_constraintTop_toTopOf="@+id/tv_bmiRange_value" />
                 </LinearLayout>
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btn_recalculate"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/add_bmi_card_margin_large"
-                    android:padding="@dimen/add_bmi_card_margin"
-                    android:text="@string/re_calculate_your_bmi"
-                    android:backgroundTint="@color/colorPrimaryDark"
-                    android:textColor="@color/white"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/ll_normalRange" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </com.google.android.material.card.MaterialCardView>
 
+
         <Button
-            android:id="@+id/btn_calculateBmi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/save_bmi"
-            android:layout_margin="@dimen/add_bmi_card_margin"
-            android:padding="@dimen/add_bmi_card_margin"
-            android:backgroundTint="@color/colorAccent"
-            android:textColor="@color/white"
-            android:textSize="@dimen/add_bmi_card_title_textsize"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/mcv_result"
-            app:layout_constraintVertical_bias="1"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            android:id="@+id/btn_calcularImc"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="264dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/calcular_imc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
